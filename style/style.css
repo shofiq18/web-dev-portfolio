@@ -2,20 +2,87 @@
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400px;
-  font-style: normal;
+  font-style: normal; 
   font-variation-settings:"wdth" 100;
   
 }
 
 nav{
     display: flex ;
+    align-items: center ;
+    justify-content: space-between;
+    margin: 0px 200px;
    
 }
 .nav-title{
     font-weight: 800px;
     font-size: 45px;
 }
+nav ul{
+    display: flex;
+    align-items: center;
+}
+.dark-2{
+    color: #478019;
+    font-size: 20px;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    padding: 18px 35px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+   
+}
+
 .text-primary{
     color: #FD6E0A;
 }
 
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+/* bannar-style */
+.header-style{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, right bottom ; 
+}
+
+.bannar{
+    display: flex;
+    justify-content: space-between ;
+    margin: 0 35px 0 200px;
+}
+ 
+
+.bannar-content{
+    max-width: 580;
+}
+
+.bannar-greatings{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600px;
+
+}
+.bannar-discription{
+    color: #757575;
+    font-size: 18px;
+}
+
+.bannar-title{
+    font-size: 85px;
+    font-weight: bold;
+}
+.bannar-profile-pic{
+    width: 580px;
+}
+
+
+ 
