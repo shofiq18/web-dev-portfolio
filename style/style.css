@@ -190,6 +190,13 @@ main section{
 
 }
 
+/* Resume section style start  */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+
+
 
 
 
